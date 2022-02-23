@@ -23,8 +23,7 @@
 
 .country {
     width: 100px;
-    float: left;
-    background-color: cyan;
+    background-color: lightcyan;
     border: 1px solid red;
     padding: 10px;
     margin: 2px;
