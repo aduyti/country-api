@@ -1,0 +1,19 @@
+* {
+    font-weight: 700;
+}
+
+#countries {
+    display: table;
+    margin: auto;
+}
+
+.country {
+    width: 20%;
+    float: left;
+    background-color: cyan;
+    border: 1px solid red;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 6px;
+    text-align: center;
+}
