@@ -27,8 +27,11 @@ const showCountry = name => {
         .then(data => showDetail(data[0]))
 }
 const showDetail = country => {
-    console.log(country);
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
     const countryDetail = document.getElementById('country');
-    countryDetail.innerText = `${country.name.common} is in ${country.continents.join(' and ')} with population of ${country.population}. It's capital is ${country.capital[0]}`;
+    countryDetail.innerText = `${country.name.common} is in ${country.continents.join(' and ')} with population of ${country.population}. It's capital is ${country.capital}`;
     countryDetail.style.display = 'block';
 }
